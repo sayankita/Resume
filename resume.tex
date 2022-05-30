@@ -1,0 +1,102 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Sayankita Majumdar} \\
+\indent Email-id : \textbf{sayankitamajumdar@gmail.com} \\
+\indent Mobile No.: \textbf{9560158202} \\
+\indent {https://github.com/Sayankita}\\
+
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l }
+\hline
+\textbf{Degree} & \textbf{University} &  \textbf{Year} & \textbf{CPI/\%} \\
+\hline
+ Btech In Computer Science & \textit{Graphic Era Deemed To Be University, Dehradun} & \textit{2020-present} & \textit{9.42}\\
+ 12th CBSE & \textit{St. Francis School Indirapuram Ghaziabad} & \textit{2020} & \textit{90.6}\\
+ 10th CBSE & \textit{St. Francis School Indirapuram Ghaziabad} & \textit{2018} & \textit{90.8}\\
+ 
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}
+\item \noindent Cloud Computing , Artificial Intelligence and Web Development
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages } C, C++, Java , Python, HTML
+\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Blinking LED with Arduino UNO and ultrasonic sensor} { (Sep 2021 -Jan 2022) } 
+\begin{itemize}\itemsep \isep
+\item Objective :To Turn LED lights on and off with respect to the distance the sensed by the ultrasonic sensor\\
+\end{itemize}
+\item \textbf{Develop an application to demonstrate how the Automotive Industry could harness data to take informed decisions.} {(under Microsoft Intern Engage 2022) } {(May 5th, 2022 - May 29th, 2022)}
+\begin{itemize}\itemsep \isep
+\item Objective :To develop an application which can take a data set and gives a studied report on which type of car can be produced and at what price.\\
+\end{itemize}
+ 
+	\end{itemize}
+
+\resheading{\textbf{STRENGTHS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Adaptability, Analytical Skills, Positive Attitude, Interpersonal Skills, Hardworking.
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\item \noindent Solving Puzzles
+\item \noindent Playing Badminton
+\item \noindent Drawing and Painting
+
+\end{itemize}
+
+\end{document}
